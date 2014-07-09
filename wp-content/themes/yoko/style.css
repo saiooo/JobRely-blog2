@@ -93,6 +93,7 @@ body {
 	width: 75%;
 	float: right;
 	margin-right: 80px;
+	border-right: 1px #e5e5e5 solid;
 }
 #secondary {
 	width: 17.275%;
