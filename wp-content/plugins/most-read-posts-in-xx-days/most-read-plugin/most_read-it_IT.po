@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Most Read in XX Days Plugin\n"
+"Report-Msgid-Bugs-To: posta@studio404.it\n"
+"POT-Creation-Date: 2013-12-26 00:38+0100\n"
+"PO-Revision-Date: 2013-12-26 00:42+0100\n"
+"Last-Translator: Claudio Simeone <posta@studio404.it>\n"
+"Language-Team: Claudio Simeone <posta@studio404.it>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ST4_most_read.php:102
+msgid "Hits"
+msgstr "Visite"
+
+#: ../ST4_most_read.php:115 ../ST4_most_read.php:132 ../ST4_most_read.php:141
+#: ../ST4_most_read.php:425
+msgid "Most Read Posts"
+msgstr "Articoli pi&ugrave; letti"
+
+#: ../ST4_most_read.php:148
+msgid "Title"
+msgstr "Titolo"
+
+#: ../ST4_most_read.php:152
+msgid "Show most read posts in"
+msgstr "Visualizza i pi&ugrave; letti negli ultimi"
+
+#: ../ST4_most_read.php:153 ../ST4_most_read.php:368
+msgid "days"
+msgstr "giorni"
+
+#: ../ST4_most_read.php:155
+msgid "Set to <b>0</b> to remove the date limit"
+msgstr "Metti <b>0</b> per mostrare tutti i post"
+
+#: ../ST4_most_read.php:158
+msgid "Show"
+msgstr "Mostra"
+
+#: ../ST4_most_read.php:160
+msgid "posts in the Sidebar"
+msgstr "articoli nella Sidebar"
+
+#: ../ST4_most_read.php:163 ../ST4_most_read.php:420
+msgid "Show Hits"
+msgstr "Mostra il numero di visite"
+
+#: ../ST4_most_read.php:166
+msgid "Check this if you want to show hits after the Post title"
+msgstr ""
+"Seleziona per mostrare il numero di visite dopo il titolo degli Articoli"
+
+#: ../ST4_most_read.php:169
+msgid "Show Featured Image"
+msgstr "Mostra immagine in evidenza"
+
+#: ../ST4_most_read.php:173
+msgid "Check this if you want to show the featured image before the Post title"
+msgstr "Seleziona per mostrare l'immagine in evidenza prima del titolo"
+
+#: ../ST4_most_read.php:174
+#, php-format
+msgid "Image dimensions can be set here <a href=\"%s\">here</a>."
+msgstr "Le dimensioni delle immagini puoi impostarle <a href=\"%s\">qui</a>."
+
+#: ../ST4_most_read.php:260
+msgid "No results available"
+msgstr "Non ci sono articoli"
+
+#: ../ST4_most_read.php:333
+msgid "Most Read Posts Settings"
+msgstr "Impostazioni Articoli pi&ugrave; letti"
+
+#: ../ST4_most_read.php:347
+msgid ""
+"To avoid multiple counts of the same post by the same user, the plugin uses "
+"a cookie."
+msgstr ""
+"Per evitare conteggi multipli dello stesso articolo da parte dello stesso "
+"visitatore, viene usato un cookie."
+
+#: ../ST4_most_read.php:351
+msgid "Set a width and an height for the featured image preview in Widgets."
+msgstr ""
+"Imposta la larghezza e l'altezza delle immagini di anteprima nei widget."
+
+#: ../ST4_most_read.php:352
+msgid ""
+"If you already have one or more featured images you should recreate the "
+"thumbnails."
+msgstr ""
+"Se hai già caricato una o pi&ugrave; immagini in evidenza dovresti ricreare "
+"le miniature."
+
+#: ../ST4_most_read.php:353
+#, php-format
+msgid "To do this you can use one of <a href=\"%s\">these Plugins</a>."
+msgstr "Per farlo puoi usare uno di <a href=\"%s\">questi Plugin</a>."
+
+#: ../ST4_most_read.php:358
+msgid ""
+"You can style image previews in the widgets by adding a <code>."
+"most_read_preview</code> class in your CSS."
+msgstr ""
+"Puoi personalizzare l'aspetto delle anteprime delle immagini nei widget "
+"aggiungendo una classe <code>.most_read_previews</code> nel tuo CSS."
+
+#: ../ST4_most_read.php:359
+msgid ""
+"You can style automatic posts' counts by adding a <code>.most_read_hits</"
+"code> class in your CSS."
+msgstr ""
+"Puoi personalizzare l'aspetto del conteggio degli articoli aggiungendo una "
+"classe <code>.most_read_hits</code> nel tuo CSS."
+
+#: ../ST4_most_read.php:363
+msgid ""
+"If you don't want to add plugin tags manually in your template, you can show "
+"hits automatically before or after Post Content."
+msgstr ""
+"Se non vuoi aggiungere manualmente i tag del plugin nel tuo tema, puoi "
+"mostrare le visite automaticamente prima o dopo il testo dell'articolo."
+
+#: ../ST4_most_read.php:385
+msgid "Use the following CSS code"
+msgstr "Usa questo codice CSS"
+
+#: ../ST4_most_read.php:394
+msgid "Don't show, I do this manually"
+msgstr "Non mostrare, lo faccio manualmente"
+
+#: ../ST4_most_read.php:398
+msgid "Before Post Content"
+msgstr "Prima del testo dell'articolo"
+
+#: ../ST4_most_read.php:402
+msgid "After Post Content"
+msgstr "Dopo il testo dell'articolo"
+
+#: ../ST4_most_read.php:409
+msgid "Cookie Expiration"
+msgstr "Scadenza del cookie"
+
+#: ../ST4_most_read.php:410
+msgid "The cookie expires in"
+msgstr "Il cookie scade dopo"
+
+#: ../ST4_most_read.php:412
+msgid "Image Preview Size"
+msgstr "Dimensioni dell'immagine di anteprima"
+
+#: ../ST4_most_read.php:413
+msgid "Width"
+msgstr "Larghezza"
+
+#: ../ST4_most_read.php:414
+msgid "Height"
+msgstr "Altezza"
+
+#: ../ST4_most_read.php:416
+msgid "CSS Settings"
+msgstr "Impostazioni CSS"
+
+#: ../ST4_most_read.php:417
+msgid "Custom CSS style"
+msgstr "CSS personalizzato"
+
+#: ../ST4_most_read.php:419
+msgid "Show Hits Automatically"
+msgstr "Mostra le visite automaticamente"
+
+#: ../ST4_most_read.php:431
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../ST4_most_read.php:432
+msgid "Widget"
+msgstr "Widget"
+
+#~ msgid "Cookie Settings"
+#~ msgstr "Impostazioni Cookie"
+
+#~ msgid "Image Settings"
+#~ msgstr "Impostazioni Anteprime"
