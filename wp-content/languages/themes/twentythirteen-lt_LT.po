@@ -1,0 +1,487 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Thirteen sulietuvinimas\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
+"POT-Creation-Date: 2014-03-18 19:16:26+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mantas Malcius <mantas.malcius@gmail.com>\n"
+"Language-Team: Mantas Malcius [mantas.malcius.lt] <mantas.malcius@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Country: LITHUANIA\n"
+
+#: 404.php:16
+msgid "Not Found"
+msgstr "Nerasta"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Tai yra kažkas nemalonaus, taip?"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Panašu, kad čia nieko nėra. Gal padėtų paieškos įrankis?"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Dienos archyvas: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Mėnesio archyvas: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y &#109;. F &#109;&#279;&#110;."
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Metų archyvas: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y &#109;."
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Archyvai"
+
+#: author-bio.php:26
+msgid "About %s"
+msgstr "%s"
+
+#: author-bio.php:30
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Peržiūrėti kitus įrašus, kuriuos parašė %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "Visi įrašai, kuriuos paskelbė %s"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "Kategorijos archyvas: %s"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentaras<!--%2$s-->"
+msgstr[1] "%1$s komentarai<!--%2$s-->"
+msgstr[2] "%1$s komentarų<!--%2$s-->"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Komentarų navigacija"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; Senesni komentarai"
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Komentavimo galimybė išjungta."
+
+#: content-aside.php:13
+#: content-audio.php:24
+#: content-gallery.php:24
+#: content-image.php:23
+#: content-link.php:24
+#: content-quote.php:13
+#: content-status.php:13
+#: content-video.php:23
+#: content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Skaityti toliau <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:14
+#: content-audio.php:25
+#: content-chat.php:24
+#: content-gallery.php:25
+#: content-image.php:24
+#: content-link.php:25
+#: content-quote.php:14
+#: content-status.php:14
+#: content-video.php:24
+#: content.php:42
+#: image.php:70
+#: page.php:35
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: content-aside.php:20
+#: content-aside.php:28
+#: content-audio.php:31
+#: content-chat.php:29
+#: content-gallery.php:39
+#: content-image.php:35
+#: content-link.php:19
+#: content-quote.php:25
+#: content-status.php:19
+#: content-video.php:35
+#: content.php:31
+#: image.php:44
+#: page.php:39
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:49
+msgid "Leave a comment"
+msgstr "Komentarų: 0"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:49
+msgid "One comment so far"
+msgstr "Komentarų: 1"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:49
+msgid "View all % comments"
+msgstr "Komentarų: %"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Nepavyko rasti"
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę paskelbti pirmąjį įrašą? <a href=\"%1$s\">Pradėkite nuo čia</a>."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį."
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Panašu, kad nepavyko rasti jūsų ieškomo puslapio. Galbūt jums padės paieškos galimybė."
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:19
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:19
+msgid "Semantic Personal Publishing Platform"
+msgstr "Naudojama „WordPress“ turinio valdymo sistema"
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "„%s“ sistema"
+
+#: functions.php:97
+msgid "Navigation Menu"
+msgstr "Navigacijos meniu"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Bitter, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:134
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:220
+msgid "Page %s"
+msgstr "Puslapis %s"
+
+#: functions.php:235
+msgid "Main Widget Area"
+msgstr "Pagrindinė valdiklių sritis"
+
+#: functions.php:237
+msgid "Appears in the footer section of the site."
+msgstr "Atvaizduojama tinklaraščio poraštėje."
+
+#: functions.php:245
+msgid "Secondary Widget Area"
+msgstr "Antroji valdiklių sritis"
+
+#: functions.php:247
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Atvaizduojama šalia įrašų ir puslapių šoninėje juostoje."
+
+#: functions.php:272
+msgid "Posts navigation"
+msgstr "Įrašo navigacija"
+
+#: functions.php:276
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Senesni įrašai"
+
+#: functions.php:280
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:308
+msgid "Post navigation"
+msgstr "Įrašo navigacija"
+
+#: functions.php:311
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:312
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:332
+msgid "Sticky"
+msgstr "Prilipintas"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:338
+#: functions.php:344
+msgid ", "
+msgstr ", "
+
+#: functions.php:353
+msgid "View all posts by %s"
+msgstr "Peržiūrėti visus įrašus, kuriuos paskelbė %s"
+
+#: functions.php:373
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s | %2$s"
+
+#: functions.php:379
+msgid "Permalink to %s"
+msgstr "Tiesioginė „%s“ nuoroda"
+
+#: header.php:43
+msgid "Menu"
+msgstr "Meniu"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Eiti prie turinio"
+
+#: image.php:22
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Paskelbta: <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> | Įrašas: <a href=\"%3$s\" title=\"Grįžti į „%4$s“\" rel=\"gallery\">%5$s</a></span>"
+
+#: image.php:38
+msgid "Link to full-size image"
+msgstr "Nuoroda į pilno dydžio paveikslėlį"
+
+#: image.php:39
+msgid "Full resolution"
+msgstr "Pilnas dydis"
+
+#: image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ankstesnis"
+
+#: image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Kitas <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/back-compat.php:41
+#: inc/back-compat.php:53
+#: inc/back-compat.php:68
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Thirteen veikimui būtina WordPress 3.6 ar naujesnė versija. Jūs naudojate %s. Atsinaujinkite ir bandykite dar kartą."
+
+#: inc/custom-header.php:51
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Apskritimas"
+
+#: inc/custom-header.php:56
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "Deimantas"
+
+#: inc/custom-header.php:61
+msgctxt "header image description"
+msgid "Star"
+msgstr "Žvaigždė"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai: %s"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Žymos archyvas: %s"
+
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "Archyvai: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/twentythirteen"
+msgstr "http://wordpress.org/themes/twentythirteen"
+
+#. Description of the plugin/theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "WordPress tema „TwentyThirteen“ grąžina mus prie tinklaraščių rašymo. Ji palaiko visus įrašų formatus, iš kurių kiekvienas yra unikaliai gražiai atvaizduojamas. Tema turi nuostabią spalvų schemą, kuri suderinta su antraštės paveikslėliais, gražiai atvaizduojamais šriftais, piktogramomis ir prisitaikančiu turinio išdėstymu, todėl nuostabiai atrodys dideliuose ekranuose, bet bus puikiai atvaizduojama ir mažuose įrenginiuose."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress komanda"
+
+#~ msgid "Go back."
+#~ msgstr "Grįžti."
+
+#~ msgid "Sidebar"
+#~ msgstr "Valdiklių sritis"
+
+#~ msgid "Pingback:"
+#~ msgstr "Atgalinis pranešimas:"
+#~ msgctxt "1: date, 2: time"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s %2$s"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Jūsų komentaras laukia patvirtinimo."
+
+#~ msgid "Reply"
+#~ msgstr "Atsakyti"
+#~ msgctxt "assistive text"
+
+#~ msgid "Search"
+#~ msgstr "Paieška"
+#~ msgctxt "placeholder"
+
+#~ msgid "Search &hellip;"
+#~ msgstr "Paieška &hellip;"
+#~ msgctxt "submit button"
+
+#~ msgid "Search"
+#~ msgstr "Paieška"
+
+#~ msgid ""
+#~ "black, brown, orange, tan, white, light, one-column, two-columns, right-"
+#~ "sidebar, flexible-width, custom-header, custom-menu, editor-style, "
+#~ "featured-images, microformats, post-formats, rtl-language-support, sticky-"
+#~ "post, translation-ready"
+#~ msgstr ""
+#~ "juoda, ruda, oranžinė, gelsvai ruda, balta, šviesi, viena-skiltis, dvi-"
+#~ "skiltys, valdikliai-dešinėje, nefiksuoto-pločio, antraštės-paveikslėlis, "
+#~ "vartotojo-meniu, rašyklės-stilius, specialūs-paveikslėliai, "
+#~ "mikroformatai, įrašų-formatai, RTL-palaikymas, prilipinami-įrašai, "
+#~ "pritaikyta-vertimams"
+
+#~ msgid "Author Archives: %s"
+#~ msgstr "Autoriaus archyvas: %s"
+
+#~ msgid "1 Reply"
+#~ msgstr "Komentarų: 1"
+
+#~ msgid "% Replies"
+#~ msgstr "Komentarų: %"
+
+#~ msgid "Link"
+#~ msgstr "Nuoroda"
+
+#~ msgid ""
+#~ "Apologies, but no results were found. Perhaps searching will help find a "
+#~ "related post."
+#~ msgstr "Deja, rasti nepavyko. Pabandykite pasinaudoti paieška."
+
+#~ msgid "Featured post"
+#~ msgstr "Rekomenduojamas įrašas"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Pagrindinis meniu"
+#~ msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+
+#~ msgid "no-subset"
+#~ msgstr "no-subset"
+
+#~ msgid ""
+#~ "Appears on posts and pages except the optional Front Page template, which "
+#~ "has its own widgets"
+#~ msgstr ""
+#~ "Rodoma šalia įrašų ir puslapių (išskyrus pradžios puslapio šabloną, kuris "
+#~ "turi savo valdiklius)"
+
+#~ msgid ""
+#~ "Appears when using the optional Front Page template with a page set as "
+#~ "Static Front Page"
+#~ msgstr "Rodoma pasirinkus pradžios puslapio šabloną"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Redaguoti)"
+
+#~ msgid "Post author"
+#~ msgstr "Įrašo autorius(-ė)"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-"
+#~ "author\"> by %4$s</span>."
+#~ msgstr ""
+#~ "Kategorijos: %1$s | Žymos: %2$s | %3$s <span class=\"by-author\">| "
+#~ "Paskelbė: %4$s</span>"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+#~ "span>."
+#~ msgstr ""
+#~ "Kategorijos: %1$s | %3$s <span class=\"by-author\">| Paskelbė: %4$s</span>"
+
+#~ msgid ""
+#~ "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+#~ msgstr "%3$s <span class=\"by-author\">| Paskelbė: %4$s</span>"
+
+#~ msgid "&larr; Previous"
+#~ msgstr "&larr; Ankstesnis"
+
+#~ msgid "Next &rarr;"
+#~ msgstr "Kitas &rarr;"
+
+#~ msgid "No posts to display"
+#~ msgstr "Įrašų nėra"
+#~ msgctxt "Previous post link"
+
+#~ msgid "&larr;"
+#~ msgstr "&larr;"
+#~ msgctxt "Next post link"
+
+#~ msgid "&rarr;"
+#~ msgstr "&rarr;"
+
+#~ msgid "Front Page Template"
+#~ msgstr "Pradžios puslapio šablonas"
+
+#~ msgid "Full-width Page Template, No Sidebar"
+#~ msgstr "Pilno pločio šablonas, be šoninės juostos"

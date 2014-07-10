@@ -56,3 +56,29 @@
 			wp_nav_menu( array('menu' => 'Sub Menu' ));} ?>
 		</nav><!-- end subnav -->
 </header><!-- end header -->
+
+<div id="categories-head">
+	<?php
+		$args = array(
+		  'orderby' => 'name',
+		  'parent' => 0
+		  );
+		$categories = get_categories( $args );
+		//////////////////////////////////////
+		
+		echo __('Categories') . ': ';
+		
+		foreach ( $categories as $key => $category ) {
+			if ($key == 0){
+				echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a>';
+			}
+			else {	
+				echo ', <a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a>';
+			}
+			
+		}
+	?>
+	
+	<br>
+	
+</div>

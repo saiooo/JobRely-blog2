@@ -9,6 +9,7 @@
 
 	<footer id="colophon" class="clearfix">
 		Visos teisės saugomos JobRely (ĮdarbinkDraugą) nuo 2014 metų.
+		
 	</footer><!-- end colophon -->
 	
 </div><!-- end page -->

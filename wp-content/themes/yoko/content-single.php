@@ -52,4 +52,8 @@
 	</div><!-- end single-entry-content -->
 
 </article><!-- end post-<?php the_ID(); ?> -->
+
+<div class="mailchimpas">
+	<?php mailchimpSF_signup_form(); ?>
+</div>
 <div class="clear"></div>

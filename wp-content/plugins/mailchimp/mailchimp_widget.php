@@ -104,10 +104,6 @@ function mailchimpSF_signup_form($args = array()) {
 	.mc_interest input {
 		margin-bottom: 0.4em;
 	}
-	#mc_signup_submit {
-		margin-top: 1.5em;
-		width: 80%;
-	}
 	#mc_unsub_link a {
 		font-size: 0.75em;
 	}
@@ -126,6 +122,38 @@ function mailchimpSF_signup_form($args = array()) {
 	}
 	.mc_email_type {
 		padding-left: 4px;
+	}
+		
+	.mc_custom_border_hdr {
+	font-family: 'Droid Sans', arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 8px;
+	}
+
+	.mc_input {
+		background-color: #fff;
+		border: 1px solid #ddd;
+		font: 1em 'Droid Sans', arial, sans-serif;
+		padding: 5px 0px 5px 6px;
+	}
+
+	#mc_signup_submit {
+		float: left;
+		text-transform: uppercase;
+		display: inline-block;
+		background-color: #777;
+		color: #FFF;
+		outline: none;
+		border: none;
+		padding: 7px;
+		letter-spacing: 1px;
+		font-size: .75em;
+		margin: 10px 0px 0px 0px;
+	}
+
+	#mc_display_rewards {
+		font-size: 10px;
 	}
 </style>
 
@@ -358,7 +386,7 @@ function mailchimp_form_field($var, $num_fields) {
 		switch ($var['field_type']) {
 			case 'date': 
 				$html .= '
-	<input type="text" size="18" placeholder="'.esc_attr($var['default']).'" data-format="'.esc_attr($var['dateformat']).'" name="'.esc_attr($opt).'" id="'.esc_attr($opt).'" class="date-pick mc_input"/>';
+	<input type="text" size="18" placeholder="'.esc_attr($var['default']).'" data-format="'.esc_attr($var['dateformat']).'" name="'.esc_attr($opt).'" id="'.esc_attr($opt).'" class="date-pick mc_input"/>'; 
 				break;
 			case 'radio':
 				if (is_array($var['choices'])) {

@@ -7,10 +7,12 @@
 get_header(); ?>
 
 <div id="wrap">
+
 <div id="main">
 
-	<div id="content">
 
+	<div id="content">
+	
 				<?php the_post(); ?>
 
 				<?php get_template_part( 'content', 'page' ); ?>

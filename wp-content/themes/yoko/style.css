@@ -92,8 +92,8 @@ body {
 #content {
 	width: 75%;
 	float: right;
-	margin-right: 80px;
-	border-right: 1px #e5e5e5 solid;
+	padding-right: 60px;
+	border-right: 1px #CCCCCC solid;
 }
 #secondary {
 	width: 17.275%;
@@ -1673,4 +1673,22 @@ ul#menu-header-menu li:hover  {
 	background:#FFF;
 	height: 56px;
 }
+
+.mailchimpas {
+	background-color: #F0F0F0;
+	padding: 15px;
+}
+
+#categories-head  {
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 13px;
+}
+
+#categories-head a {
+	padding: 0px 0px 0px 5px;
+}
+
 .clr{clear:both;}
