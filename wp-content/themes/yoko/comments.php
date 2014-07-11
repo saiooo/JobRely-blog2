@@ -59,7 +59,7 @@
 array(
 	'comment_notes_before' =>__( '<p class="comment-notes">Required fields are marked <span class="required">*</span>.</p>', 'yoko'),
 	'comment_notes_after' => '',
-	'comment_field'  => '<p class="comment-form-comment"><label for="comment">' . _x( 'Message <span class="required">*</span>', 'noun', 'yoko' ) . 	'</label><br/><textarea id="comment" name="comment" rows="8"></textarea></p>',
+	'comment_field'  => '<p class="comment-form-comment"><label for="comment">' . _x( 'Žinutė <span class="required">*</span>', 'noun', 'yoko' ) . 	'</label><br/><textarea id="comment" name="comment" rows="8"></textarea></p>',
 )
 ); ?>
 </div><!-- end comments -->

@@ -54,6 +54,6 @@
 </article><!-- end post-<?php the_ID(); ?> -->
 
 <div class="mailchimpas">
-	<?php mailchimpSF_signup_form(); ?>
+	<?php mc4wp_form(); ?>
 </div>
 <div class="clear"></div>
